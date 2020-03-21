@@ -1,0 +1,98 @@
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+:: TEST - DISCONNECTED FROM DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING!
+:: ID CREATED IS: 100
+:: CREATE NEW CUSTOMER - SUCCESS!
+
+
+:: CREATE NEW CUSTOMER - RUNNING!
+:: ID CREATED IS: 101
+:: CREATE NEW CUSTOMER - SUCCESS!
+
+
+:: CREATE NEW CUSTOMER - RUNNING!
+:: ID CREATED IS: 102
+:: CREATE NEW CUSTOMER - SUCCESS!
+
+
+:: OPEN ACCOUNT - RUNNING
+:: ACCOUNT NUMBER CREATED IS: 1000
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: ACCOUNT NUMBER CREATED IS: 1001
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: ACCOUNT NUMBER CREATED IS: 1002
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: ACCOUNT NUMBER CREATED IS: 1003
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: ACCOUNT SUMMARY - RUNNING
+
+NUMBER      BALANCE
+----------- -----------
+       1000          10
+       1001         100
+:: ACCOUNT SUMMARY - SUCCESS
+
+
+:: REPORT A - RUNNING
+
+ID         NAME            Gender     AGE        Pin        Total
+---------- --------------- ---------- ---------- ---------- ----------
+       102           Misty          F         18       6023        500
+       100             Ash          M         10       1010        110
+       101         Pikachu          M         25         25         25
+:: REPORT A - SUCCESS
+
+
+:: DEPOSIT - RUNNING
+:: DEPOSIT - SUCCESS
+
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+
+:: ACCOUNT SUMMARY - RUNNING
+
+NUMBER      BALANCE
+----------- -----------
+       1000         310
+:: ACCOUNT SUMMARY - SUCCESS
+
+
+:: REPORT A - RUNNING
+
+ID         NAME            Gender     AGE        Pin        Total
+---------- --------------- ---------- ---------- ---------- ----------
+       102           Misty          F         18       6023        500
+       100             Ash          M         10       1010        310
+       101         Pikachu          M         25         25         25
+:: REPORT A - SUCCESS
+
+
+:: REPORT B - RUNNING
+
+  AVERAGE AGE     AVERAGE BALANCE
+--------------- -------------------
+             21                 278
+:: REPORT B - SUCCESS
