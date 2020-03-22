@@ -1,4 +1,3 @@
-
 1. To run this code, execute the following commands
 
 db2 Connect to cs157a
